@@ -1,0 +1,7 @@
+FROM python:3-alpine
+
+MAINTAINER Terence <stdrickforce@gmail.com>
+
+ADD scripts/ticktock.py .
+
+CMD python -u ticktock.py
